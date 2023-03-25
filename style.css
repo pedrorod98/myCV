@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {}
+
+.information-column {
+    padding: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+
+}
+
+.information-column hr {
+    border: none;
+    border-bottom: 1px solid aqua;
+    margin-top: 18px;
+}
+
+
+.information-column img {
+    width: 300px;
+    height: 300px;
+    border-radius: 600px;
+    border: 1px solid aqua;
+    margin-bottom: 18px;
+}
+
+.information-column h3 {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.information-column ul{
+    list-style-type: none;
+
+}
+
+.information-column li {
+    text-align: left;
+    margin: 10px 0;
+
+    
+
+}
+.contact-description a {
+    text-decoration: none;
+    color: white;
+
+}
+.contact-description i {
+    color: aqua;
+    margin-right: 10px;
+}
+.education-description {
+    margin-top: 32px;
+}
+
+.education-description p {
+    color: #03474f;
+}
+
+.language-description .percent {
+    height: 6px;
+    background-color: #03474f;
+    margin: 5px;
+    width: 205px;
+}
+
+.language-description .percent div {
+
+    height: 6px;
+    background-color: rgba(1, 152, 129, 0.845);
+}
+
+.language-description .percent.english div{
+    width: 60%;
+}
+
+
+
+
+
+.experiences-column {
+    padding: 40px;
+    background-color: white;
+    color: black;
+    text-align: left;
+
+   
+}
+.sobre-description  {
+
+    font-weight: bold;
+}
+.sobre-description h3 {
+
+    margin-bottom: 15px;
+    margin-top: 30px;
+    color: black;
+
+}
+.sobre-description a {
+    text-decoration: none;
+    color: blue;
+
+}
+
